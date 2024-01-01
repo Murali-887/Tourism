@@ -1,0 +1,17 @@
+.pop-up {
+    background-color: lightgreen;
+    position: absolute;
+    right: 40%;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    padding: 1.2% 4%;
+    display: none;
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.-inline {
+  display: inline;
+}
+
+.main-body {
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  background-color: rgba(255, 255, 255, 0.717);
+  padding: 4%;
+  column-gap: 3%;
+  margin: auto;
+}
+
+.tour-card {
+  background-color: rgb(236, 239, 236);
+  text-align: center;
+  border-radius: 1em;
+  margin: 2%;
+  border: .1em solid black;
+}
+
+.tour-img img {
+  width: 100%;
+}
+
+.tour-name {
+  margin: auto;
+  text-align: center;
+}
+
+.tour-details {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  text-align: center;
+}
+
+.text-image {
+  display: inline;
+  align-items: center;
+  flex-direction: column;
+  margin: 4%;
+  padding: 4%;
+}
+
+.fa {
+  color: rgb(0, 253, 0);
+}
+
+.card-footer {
+  background-color: rgb(211, 211, 208);
+  display: grid;
+  grid-template-columns: 44% 44%;
+  z-index: -10;
+  overflow: hidden;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.details button {
+  border: none;
+  font-size: 18px;
+  width: 70%;
+  height: 60%;
+  border-radius: 20px;
+  background-color: rgb(69, 194, 79);
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,116 @@
+.tour {
+    box-sizing: border-box;
+}
+
+.tour .overview-about {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 44% 55%;
+}
+
+.tour .overview {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour .tour-heading {
+    text-align: center;
+}
+
+.tour .overview-1 {
+    width: 50%;
+    margin: 2%;
+}
+
+.tour .overview-2 {
+    margin: 2%;
+    width: 50%;
+}
+
+.about-tour {
+    margin-left: 6%;
+    width: 80%;
+}
+
+.about-tour h2 {
+    margin-bottom: 4%;
+}
+
+.about-tour p {
+    margin-bottom: 4%;
+}
+
+.tour-description {
+    text-align: justify;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+section .images {
+    display: flex;
+    rotate: -4deg;
+    flex-direction: row;
+    margin: 5% 1%;
+    width: 100%;
+}
+
+section .images .image-box {
+    width: 100%;
+}
+
+section .images img {
+    width: 33%;
+}
+
+#tour-reviews {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.tour-footer {
+    display: flex;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10% 0;
+    margin-left: 14%;
+    min-height: 10vh;
+    align-items: center;
+    font-size: 18px;
+    padding: 3em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);   
+}
+
+.tour-footer img {
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.tour-footer p {
+    margin-left: 1em;
+    padding: 1em;
+    text-align: left;
+}
+
+.tour-footer button {
+    border-radius: 20px;
+    padding: 1em;
+    font-size: 16px;
+    margin-left: 10%;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.tour-footer button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}

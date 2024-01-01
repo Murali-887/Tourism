@@ -1,0 +1,9 @@
+.tour-guides {
+    /* background-color: pink; */
+    margin: 7% 2%;
+    text-align: left;
+}
+
+.tour-guides span {
+    margin-right: 5%;
+}

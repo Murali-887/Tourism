@@ -1,0 +1,18 @@
+.review-card {
+    background-color: white;
+    flex-grow: 1;
+    min-width: 24%;
+    margin: 1% 4%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 3%;
+    font-size: 18px;
+}
+
+.review-card > * {
+    padding: 2% 0;
+}
+
+.review-card > svg {
+    font-size: 24px;
+}
